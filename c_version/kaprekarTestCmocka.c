@@ -60,7 +60,8 @@ int main(int argc, char **argv) {
 
   /* Positive test values: all 24 Kaprekar numbers between [1, 100,000] */
   int kaprekarNumbers[] = {1, 9, 45, 55, 99, 297, 703, 999, 2223, 2728, 4879, 4950, 5050, 5292, 7272, 7777, 9999, 17344, 22222, 38962, 77778, 82656, 95121, 99999};
-
+	
+  
   /* Negative test values: 24 non-Kaprekar numbers */
   int nonKaprekarNumbers[] = {-10, -1, 0, 2, 3, 4, 5, 6, 7, 8,
                                10, 500, 2000, 7776, 7778, 10000, 25123, 26321,
@@ -127,6 +128,6 @@ int main(int argc, char **argv) {
     cmocka_unit_test_prestate(negativeTest, &nonKaprekarNumbers[23])
   };
 
-  return cmocka_run_group_tests(tests, NULL, NULL);
+    return cmocka_run_group_tests(tests, NULL, NULL);
 
 }

@@ -1,5 +1,5 @@
 CC = gcc 
-FLAGS = -Wall -g
+FLAGS = -Wall -g -O0
 INCLUDES = -l cmocka -lm
 
 all: kaprekarDemo kaprekarTest kaprekarTestCmocka
