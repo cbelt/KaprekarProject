@@ -1,7 +1,7 @@
 #include<stdlib.h>
 #include<stdio.h>
 
-#include "kaprekarUtils.c"
+#include "kaprekarUtils.h"
 
 /**
  * Utility function to test if the given key is the given array.
